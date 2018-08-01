@@ -5,7 +5,7 @@ import { IngresoEgresoService } from './ingreso-egreso.service';
 
 import Swal from 'sweetalert2';
 import { Store } from '@ngrx/store';
-import { AppState } from '../app.reducer';
+import { AppState } from './ingreso-egreso.reducer';
 import { Subscription } from 'rxjs';
 import {
   ActivarLoadingAction,
